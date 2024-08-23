@@ -1,5 +1,7 @@
 package com.nhnacademy.auth.controller;
 
+import com.nhnacademy.auth.dto.JoinDto;
+import com.nhnacademy.auth.service.JoinService;
 import lombok.RequiredArgsConstructor;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RestController;
