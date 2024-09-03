@@ -5,7 +5,8 @@ import org.springframework.stereotype.Service;
 
 @Service
 public class JoinService {
-    public void joinProcess(JoinDto joinDto){
+    public int joinProcess(JoinDto joinDto){
         int a= joinDto.getTest();
+        return a;
     }
 }
