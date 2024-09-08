@@ -10,4 +10,5 @@ public class Test {
     @Id
     int student_num;
     String student_name;
+    int student_age;
 }
