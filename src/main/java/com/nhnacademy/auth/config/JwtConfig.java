@@ -7,7 +7,7 @@ import org.springframework.context.annotation.Configuration;
 public class JwtConfig {
     Test test;
 
-    public Test getTest() {
+    public Test getTest(String a) {
         return test;
     }
 }
