@@ -8,6 +8,7 @@ public class JwtConfig {
     Test test;
 
     public Test getTest(String a) {
+        a.equals(test);
         return test;
     }
 }
