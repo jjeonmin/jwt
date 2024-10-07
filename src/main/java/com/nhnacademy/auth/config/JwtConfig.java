@@ -12,7 +12,9 @@ public class JwtConfig {
         if (b==true){
             return test;
         }
-        return test;
+        else {
+            return test;
+        }
     }
 }
 
