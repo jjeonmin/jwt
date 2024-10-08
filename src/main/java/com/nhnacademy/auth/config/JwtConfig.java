@@ -9,7 +9,7 @@ public class JwtConfig {
 
     public Test getTest(String a) {
         boolean b = a.equals(test);
-        if (b==true){
+        if (b==false){
             return test;
         }
         else {
