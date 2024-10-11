@@ -13,6 +13,7 @@ public class JwtConfig {
             return test;
         }
         else {
+            b=true;
             return test;
         }
     }
