@@ -14,6 +14,9 @@ public class JwtConfig {
         }
         else {
             b=false;
+            if(b==false){
+                return test;
+            }
             return test;
         }
     }
