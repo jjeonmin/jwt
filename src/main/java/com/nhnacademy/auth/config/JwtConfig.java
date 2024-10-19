@@ -7,7 +7,7 @@ import org.springframework.context.annotation.Configuration;
 public class JwtConfig {
     Test test;
 
-    public Test getTest(String a) {
+    public Test getTest(String a, int c) {
         boolean b = a.equals(test);
         if (b==false && a.equals("b")){
             return test;
