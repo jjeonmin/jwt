@@ -10,6 +10,7 @@ public class JwtConfig {
     public Test getTest(String a, int c) {
         boolean b = a.equals(test);
         if (b==false && a.equals("b")){
+            c=8;
             return test;
         }
         else {
